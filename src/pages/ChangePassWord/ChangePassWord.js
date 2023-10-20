@@ -33,12 +33,16 @@ const ChangePassWord = () => {
                             placeholder='fotofusion@gmail.com'
                         />
                         
+
+                    
+                    
                         <div className='inputCodeChange'>
                             <span > Old Password</span>
                             <div className='passwordInput'>
                                 <input 
                                     type={ 'password'}
                                     value={password}
+                                
                                     onChange={(e) => setPassword(e.target.value)}
                                 />
                             </div>
