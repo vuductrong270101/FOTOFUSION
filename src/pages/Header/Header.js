@@ -7,6 +7,7 @@ import IcPinterest from './../../assets/icon/ic-pinterest';
 import IcTwiter from '../../assets/icon/ic-twiter';
 import IcLogo from '../../assets/logo/IcLogo';
 import IconCollapse from '../../assets/icon/ic-collapse';
+import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div className='headerMain' >
@@ -37,33 +38,37 @@ const Header = () => {
                     </div>
                     <div className='headerMenuRight'>
                         <div className='headerMenuContainer'>
-                                <div className='itemMenu'>
+                                <Link to='/home'  className='itemMenu'>
                                     Home
-                                </div>
-                                <div className='itemMenu'>
+                                </Link>
+                                <Link to='/albums'  className='itemMenu'>
                                     Album
-                                </div>
-                                <div className='itemMenu'>
-                                Pages
+                                </Link>
+                                <Link to='/Pages'  className='itemMenu'>
+                                    Pages
                                 <IconCollapse/>
-                                </div>
-                                <div className='itemMenu'>
+                                </Link>
+                                <Link  to='/services'   className='itemMenu'>
                                     Services
-                                </div>
-                                <div className='itemMenu'>
+                                </Link>
+                                <Link to='/blog'  className='itemMenu'>
                                     Blog
-                                </div>
-                                <div className='itemMenu'>
+                                </Link>
+                                <Link to='/contact'   className='itemMenu'>
                                     Contact
-                                </div>
+                                </Link>
+                                <Link to='/login'  className='itemMenu' >
+                                    Login
+                                </Link>
                             </div>
                             <div className='headerMenuBooking'>
                                 <button>
                                     Booking
                                 </button>
-                            </div>
                         </div>
                     </div>
+                   
+                </div>
             </div>
         </div>
     );

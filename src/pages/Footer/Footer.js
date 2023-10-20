@@ -1,14 +1,14 @@
 import React from 'react';
 import './Footer.scss'
 
-import Followed from '../../../assets/images/followed.png';
-import Fbavatar from '../../../assets/images/fb-avatar.png';
-import LatestImage from '../../../assets/images/latestImage.png';
-import Rectangle68 from '../../../assets/images/Rectangle68.png';
-import IcLogo from '../../../assets/logo/IcLogo';
-import IcLocationFT from '../../../assets/icon/ic-locationFT';
-import IcMailFT from '../../../assets/icon/ic-mailFT';
-import IcContactFT from '../../../assets/icon/ic-conteactFT';
+import Followed from '../../assets/images/followed.png';
+import Fbavatar from '../../assets/images/fb-avatar.png';
+import LatestImage from '../../assets/images/latestImage.png';
+import Rectangle68 from '../../assets/images/Rectangle68.png';
+import IcLogo from '../../assets/logo/IcLogo';
+import IcLocationFT from '../../assets/icon/ic-locationFT';
+import IcMailFT from '../../assets/icon/ic-mailFT';
+import IcContactFT from '../../assets/icon/ic-conteactFT';
 const Footer = () => {
     return (
        <>

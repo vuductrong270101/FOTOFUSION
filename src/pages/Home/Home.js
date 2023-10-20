@@ -1,17 +1,17 @@
 import React from 'react';
 import './Home.scss'
-import CategoryProductGroup from '../../ImageGroup/CategoryProductGroup/CategoryProductGroup';
-import TopSellerProducts from '../../ImageGroup/TopSellerProducts/TopSellerProducts';
+import FollowImg from '../../assets/images/followImage.png'
+import BgHome from '../../assets/images/bg-home.png'
 
-import MemberTakePhotos from './../../ImageGroup/MemberTakePhotos/MemberTakePhotos';
-import BgHome from '../../../assets/images/bg-home.png'
-import FollowImg from '../../../assets/images/followImage.png'
+import IconMessenger from '../../assets/images/messenger.png';
+import IcTiktok from '../../assets/icon/ic-tiktok';
+import IcInsta from '../../assets/icon/ic-ins';
+import IcFb from '../../assets/icon/ic-fb';
+import Footer from './../Footer/Footer';
 
-import IconMessenger from '../../../assets/images/messenger.png';
-import IcTiktok from '../../../assets/icon/ic-tiktok';
-import IcInsta from '../../../assets/icon/ic-ins';
-import IcFb from '../../../assets/icon/ic-fb';
-import Footer from '../Footer/Footer';
+import MemberTakePhotos from './../../components/ImageGroup/MemberTakePhotos/MemberTakePhotos';
+import CategoryProductGroup from './../../components/ImageGroup/CategoryProductGroup/CategoryProductGroup';
+import TopSellerProducts from './../../components/ImageGroup/TopSellerProducts/TopSellerProducts';
 const Home = () => {
     return (
         <div className='homeContainter'>

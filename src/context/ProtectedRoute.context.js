@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { AuthContext } from "./auth.context";
 // import Login from "../pages/Login";
-import NotAdmin from "../components/pages/NotFound/NotAdmin";
+import NotAdmin from './../pages/NotFound/NotAdmin';
 
 export function ProtectedRoute({ Component, role }) {
   const { user } = useContext(AuthContext);

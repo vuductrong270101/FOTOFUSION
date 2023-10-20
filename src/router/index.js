@@ -23,7 +23,11 @@ import {
 
 import { ProtectedRoute } from "../context/ProtectedRoute.context";
 import MainLayout from "../Layout/MainLayout/MainLayout";
-import Home from "../components/pages/Home/Home";
+import Home from './../pages/Home/Home';
+import Login from './../pages/Login/Login';
+import SignUp from "../pages/Signup/Signup";
+import ForgotPassWord from "../pages/ForgotPassWord/ForgotPassWord";
+import ChangePassWord from "../pages/ChangePassWord/ChangePassWord";
 
 const Router = () => {
 
@@ -40,6 +44,30 @@ const Router = () => {
           path="/home" element={
             <MainLayout>
               <Home />
+            </MainLayout>}
+        />
+        <Route
+          path="/login" element={
+            <MainLayout>
+              <Login />
+            </MainLayout>}
+        />
+        <Route
+          path="/signup" element={
+            <MainLayout>
+              <SignUp />
+            </MainLayout>}
+        />
+        <Route
+          path="/change-password" element={
+            <MainLayout>
+              <ChangePassWord />
+            </MainLayout>}
+        />
+        <Route
+          path="/forgot-password" element={
+            <MainLayout>
+              <ForgotPassWord />
             </MainLayout>}
         />
         <Route
