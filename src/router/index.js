@@ -30,6 +30,7 @@ import ForgotPassWord from "../pages/ForgotPassWord/ForgotPassWord";
 import ChangePassWord from "../pages/ChangePassWord/ChangePassWord";
 import BookingOnline from "../pages/BookingOnline/BookingOnline";
 import BookingAlbum from "../pages/BookingAlbum/BookingAlbum";
+import AlbumsPhotoPage from "../pages/AlbumsPhotoPage/AlbumsPhotoPage";
 
 const Router = () => {
 
@@ -82,6 +83,12 @@ const Router = () => {
           path="/booking-album" element={
             <MainLayout>
               <BookingAlbum />
+            </MainLayout>}
+        />
+         <Route
+          path="/albums-photo" element={
+            <MainLayout>
+              <AlbumsPhotoPage />
             </MainLayout>}
         />
         {/* <Route

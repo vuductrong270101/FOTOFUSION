@@ -45,7 +45,7 @@ const Header = () => {
                                 <Link to='/home'  className='itemMenu'>
                                     Home
                                 </Link>
-                                <Link to='/albums'  className='itemMenu'>
+                                <Link to='/albums-photo'  className='itemMenu'>
                                     Album
                                 </Link>
                                 <Link to='/Pages'  className='itemMenu'>

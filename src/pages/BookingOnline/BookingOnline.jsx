@@ -43,7 +43,7 @@ const BookingOnline = () => {
                 className='formBooking'
                 style={{ width: '100%',  minHeight: '900px', backgroundImage: `url(${FormBookingBG})` , backgroundSize: 'cover'  }}
             >   
-                <span className='titleForm'>Hoàn thành form sau</span>
+                <span className='titleForm'>Thông tin đăng ký</span>
                 <div className='mainForm'>
                     <Form.Item label="Tên HK">
                          <Input style={{ marginLeft: 40}} placeholder='Nhập họ và tên'/>

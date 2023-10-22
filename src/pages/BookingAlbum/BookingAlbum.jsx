@@ -33,7 +33,7 @@ const BookingAlbum = () => {
                 className='formBooking'
                 style={{ width: '100%',  minHeight: '900px', backgroundImage: `url(${FormBookingBG})` , backgroundSize: 'cover'  }}
             >   
-                <span className='titleForm'>Bạn đã chọn được albums ưng ý  : </span>
+                <span className='titleForm'>Thông tin Album đăng ký</span>
                 <div className='mainForm'>
                     <Form.Item label="Tên HK">
                          <Input style={{ marginLeft: 40}} placeholder='Nhập họ và tên'/>
@@ -55,14 +55,8 @@ const BookingAlbum = () => {
                         <DatePicker style={{ marginLeft: 40  }} placeholder='Chọn ngày thử' />
                     </Form.Item>
 
-                    <Form.Item label="Trang phục :">
-                        <Radio.Group style={{ marginLeft: 40}}  >
-                            <Radio value="Thuê"> Thuê </Radio>
-                            <Radio value="Mua"> Mua </Radio>
-                        </Radio.Group>
-                    </Form.Item>
                     <Form.Item label="Ghi chú">
-                        <TextArea  style={{ marginLeft: 40}}  />     
+                        <TextArea placeholder='Bạn mong muốn điều gí ?'  style={{ marginLeft: 40}}  />     
                     </Form.Item>  
                         
                     <Form.Item  style={{ width: '100%'}} >
